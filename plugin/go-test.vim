@@ -12,6 +12,6 @@ EOF
 
 function! GenerateTestFile()
     python3 import generateTest
-	python3 generateTest.main()
+    python3 generateTest.main()
 endfunction
 command! -nargs=0 GenerateTestFile call GenerateTestFile()
