@@ -1,0 +1,1 @@
+Helper function to generate test stubs for *.go file. It creates a test file by appending '_test' to the file name. If a file already exists, it does not delete it.
